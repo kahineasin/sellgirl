@@ -1,0 +1,49 @@
+body,div,ul,li{
+	margin:0px;
+	padding:0px;
+}
+body{
+	margin:auto;
+}
+.container{
+	margin:auto;
+	margin-top:100px;
+}
+ul li{
+	text-align:center;
+	list-style:none;
+	line-height:30px;
+}
+
+.tabTitle{
+	margin:auto;
+	width:800px;
+	height:30px;
+}
+.tabTitle li{
+	float:left;
+	width:198px;
+	height:30px;
+	cursor:hand;
+	border:1px solid #333;
+}
+.active{
+	background-color:#000;
+	color:white;
+	cursor:default;
+}
+.normal{
+	background-color:#999;
+	color:white;
+	cursor:pointer;
+}
+.textArea{
+	margin:auto;
+	width:800px;
+	height:400px;
+	border:1px dashed red;
+	overflow=hidden;
+}
+.none{
+	display:none;
+}
